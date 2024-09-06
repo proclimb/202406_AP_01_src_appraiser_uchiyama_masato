@@ -18,10 +18,10 @@ function subArticle()
 	$orderBy = $_REQUEST['orderBy'];
 	$orderTo = $_REQUEST['orderTo'];
 	$sPage   = $_REQUEST['sPage'];
-
-	if ($sDel = '') {
+	if ($sDel == '') {
 		$sDel = 1;
 	}
+
 
 	if (!$sPage) {
 		$sPage = 1;
